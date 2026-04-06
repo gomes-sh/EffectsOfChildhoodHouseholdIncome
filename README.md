@@ -16,9 +16,9 @@ All data comes from the <a href="https://gssdataexplorer.norc.org/">GSS Data Exp
 
 ## File Overview
 <ul>
-  <li>**GHW1** subsets the data, removes any missing values, sets them all to factors, and plots three different graphs to get a better view of the data.</li>
-  <li>**GHW2** creates a new variable Employed, where YEARSJOB is mutated to create a variable indicating if someone is currently employed or not. This is then plotted against RES16.</li>
-  <li>**GHW3** uses bootstrap estimation on YEARSJOB to calculate 95% confidence interval. This is then plotted in two scatterplots.</li>
-  <li>**GHW4** recodes INCOM16 to two levels: higher and lower income. It creates a confusion matrix, fits a logistic regression model to it as a function of MNTLHLTH, creates a confusion matrix for the model, and then plots an ROC curve to determine accuracy.</li>
-  <li>**GHW5** splits the data into training and test sets. A CART model is trained on the training set and accuracy determined. It is then rerun on the test data to assure there is no overfitting.</li>
+  <li><b>GHW1</b> subsets the data, removes any missing values, sets them all to factors, and plots three different graphs to get a better view of the data.</li>
+  <li><b>GHW2</b> creates a new variable Employed, where YEARSJOB is mutated to create a variable indicating if someone is currently employed or not. This is then plotted against RES16.</li>
+  <li><b>GHW3</b> uses bootstrap estimation on YEARSJOB to calculate 95% confidence interval. This is then plotted in two scatterplots.</li>
+  <li><b>GHW4</b> recodes INCOM16 to two levels: higher and lower income. It creates a confusion matrix, fits a logistic regression model to it as a function of MNTLHLTH, creates a confusion matrix for the model, and then plots an ROC curve to determine accuracy.</li>
+  <li><b>GHW5</b> splits the data into training and test sets. A CART model is trained on the training set and accuracy determined. It is then rerun on the test data to assure there is no overfitting.</li>
 </ul>
